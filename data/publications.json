@@ -1,0 +1,171 @@
+{
+  "scholar": "https://scholar.google.com/citations?user=kqif8UsAAAAJ&hl=en",
+  "checked_on": "2026-10-12",
+  "papers": [
+    {
+      "id": "im-engine",
+      "title": "IM-ENGINE: Image Editing for Embodied Data Generation",
+      "authors": [
+        "Yian Wang*",
+        "Junyi Cao*",
+        "Xiaowen Qiu",
+        "Chuang Gan"
+      ],
+      "venue": "CoRL 2026",
+      "year": 2026,
+      "paper": "https://arxiv.org/abs/2609.06279",
+      "project": null,
+      "code": null,
+      "image": "images/publications/im-engine.png",
+      "summary": "Image editing and simulator priors turn semantic goals into physically executable supervision for robot manipulation.",
+      "sources": [
+        "https://arxiv.org/abs/2609.06279",
+        "https://embodied-agi.cs.umass.edu/publications/year/2026/",
+        "https://wangyian-me.github.io/"
+      ],
+      "image_source": "https://wangyian-me.github.io/images/im_engine.png"
+    },
+    {
+      "id": "physcensis",
+      "title": "PhyScensis: Physics-Augmented LLM Agents for Complex Physical Scene Arrangement",
+      "authors": [
+        "Yian Wang*",
+        "Han Yang*",
+        "Minghao Guo",
+        "Xiaowen Qiu",
+        "Tsun-Hsuan Wang",
+        "Wojciech Matusik",
+        "Joshua B. Tenenbaum",
+        "Chuang Gan"
+      ],
+      "venue": "ICLR 2026",
+      "year": 2026,
+      "paper": "https://arxiv.org/abs/2602.14968",
+      "project": "https://physcensis.github.io/",
+      "code": null,
+      "image": "images/publications/physcensis.png",
+      "image_source": "https://wangyian-me.github.io/images/physcensis.png",
+      "summary": "LLM agents work with a physics solver to build complex 3D arrangements with realistic contact, support, and containment.",
+      "sources": [
+        "https://arxiv.org/abs/2602.14968",
+        "https://physcensis.github.io/",
+        "https://wangyian-me.github.io/"
+      ]
+    },
+    {
+      "id": "robotsmith",
+      "title": "RobotSmith: Generative Robotic Tool Design for Acquisition of Complex Manipulation Skills",
+      "authors": [
+        "Chunru Lin*",
+        "Haotian Yuan*",
+        "Yian Wang*",
+        "Xiaowen Qiu",
+        "Tsun-Hsuan Johnson Wang",
+        "Minghao Guo",
+        "Bohan Wang",
+        "Yashraj Narang",
+        "Dieter Fox",
+        "Chuang Gan"
+      ],
+      "venue": "NeurIPS 2025",
+      "year": 2025,
+      "scholar_year": 2026,
+      "paper": "https://arxiv.org/abs/2506.14763",
+      "project": "https://umass-embodied-agi.github.io/RobotSmith/",
+      "code": "https://github.com/UMass-Embodied-AGI/RobotSmith",
+      "image": "images/publications/robotsmith.png",
+      "summary": "Vision-language models and physics simulation jointly design tools and optimize how robots use them.",
+      "sources": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/9fc291fef2f9607a46777d367f900a15-Abstract-Conference.html",
+        "https://umass-embodied-agi.github.io/RobotSmith/",
+        "https://wangyian-me.github.io/"
+      ],
+      "image_source": "https://wangyian-me.github.io/images/robosmith.png"
+    },
+    {
+      "id": "articulate-anymesh",
+      "title": "Articulate AnyMesh: Open-Vocabulary 3D Articulated Objects Modeling",
+      "authors": [
+        "Xiaowen Qiu*",
+        "Jincheng Yang*",
+        "Yian Wang",
+        "Zhehuan Chen",
+        "Yufei Wang",
+        "Tsun-Hsuan Wang",
+        "Zhou Xian",
+        "Chuang Gan"
+      ],
+      "venue": "CoRL 2025",
+      "year": 2025,
+      "paper": "https://arxiv.org/abs/2502.02590",
+      "project": "https://articulateanymesh.github.io/",
+      "code": "https://github.com/UMass-Embodied-AGI/Articulate-Anymesh",
+      "image": "images/publications/articulate-anymesh.gif",
+      "image_source": "https://wangyian-me.github.io/images/smalldemo_arti.gif",
+      "summary": "Vision-language models convert rigid 3D meshes into articulated assets with functional parts and joints.",
+      "sources": [
+        "https://proceedings.mlr.press/v305/qiu25b.html",
+        "https://articulateanymesh.github.io/",
+        "https://wangyian-me.github.io/"
+      ]
+    },
+    {
+      "id": "architect",
+      "title": "ARCHITECT: Generating Vivid and Interactive 3D Scenes with Hierarchical 2D Inpainting",
+      "authors": [
+        "Yian Wang*",
+        "Xiaowen Qiu*",
+        "Jiageng Liu*",
+        "Zhehuan Chen",
+        "Jiting Cai",
+        "Yufei Wang",
+        "Tsun-Hsuan Wang",
+        "Zhou Xian",
+        "Chuang Gan"
+      ],
+      "venue": "NeurIPS 2024",
+      "year": 2024,
+      "paper": "https://arxiv.org/abs/2411.09823",
+      "project": "https://wangyian-me.github.io/Architect/",
+      "code": "https://github.com/wangyian-me/architect_official_code",
+      "image": "images/publications/architect.gif",
+      "image_source": "https://wangyian-me.github.io/images/architect.gif",
+      "summary": "Hierarchical image inpainting creates detailed, interactive 3D environments for embodied AI.",
+      "sources": [
+        "https://arxiv.org/abs/2411.09823",
+        "https://wangyian-me.github.io/Architect/",
+        "https://caijiting.github.io/",
+        "https://wangyian-me.github.io/"
+      ]
+    },
+    {
+      "id": "3d-vla",
+      "title": "3D-VLA: A 3D Vision-Language-Action Generative World Model",
+      "authors": [
+        "Haoyu Zhen",
+        "Xiaowen Qiu",
+        "Peihao Chen",
+        "Jincheng Yang",
+        "Xin Yan",
+        "Yilun Du",
+        "Yining Hong",
+        "Chuang Gan"
+      ],
+      "venue": "ICML 2024",
+      "year": 2024,
+      "paper": "https://arxiv.org/abs/2403.09631",
+      "project": null,
+      "original_project": "https://vis-www.cs.umass.edu/3dvla/",
+      "code": "https://github.com/UMass-Embodied-AGI/3D-VLA",
+      "image": null,
+      "video": "images/publications/3d-vla.mp4",
+      "video_source": "https://haoyuzhen.com/images/3dvla.mp4",
+      "summary": "A generative world model connects 3D perception, language reasoning, and action through goal-image and point-cloud prediction.",
+      "sources": [
+        "https://arxiv.org/abs/2403.09631",
+        "https://github.com/UMass-Embodied-AGI/3D-VLA",
+        "https://haoyuzhen.com/"
+      ]
+    }
+  ]
+}

@@ -140,3 +140,135 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+/* Personal homepage and publication list. */
+.homepage {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 28px 24px;
+  line-height: 1.6;
+}
+
+.profile-header {
+  margin-bottom: 44px;
+  text-align: center;
+}
+
+.profile-header .name {
+  font-weight: 400;
+}
+
+.profile-header p {
+  margin: 6px 0;
+}
+
+.profile-header .biography {
+  max-width: 760px;
+  margin: 22px auto 0;
+  text-align: left;
+}
+
+.profile-header p:last-of-type {
+  margin-top: 16px;
+}
+
+.profile-header span {
+  margin: 0 8px;
+}
+
+.pending-link {
+  cursor: default;
+}
+
+.publications-header {
+  margin-bottom: 12px;
+}
+
+.contribution-note {
+  color: #666;
+  margin: 6px 0 0;
+}
+
+.publication {
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  align-items: center;
+  gap: 28px;
+  padding: 24px 0;
+}
+
+.publication-image {
+  min-height: 140px;
+}
+
+.publication-image img,
+.publication-image video {
+  display: block;
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+.publication h3 {
+  margin: 0 0 6px;
+  line-height: 1.4;
+}
+
+.publication h3 a {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.publication p {
+  margin: 5px 0;
+}
+
+.publication-venue {
+  font-style: italic;
+}
+
+.publication-links span {
+  margin: 0 5px;
+  color: #777;
+}
+
+.publication .publication-summary {
+  margin-top: 10px;
+}
+
+.homepage-footer {
+  margin-top: 32px;
+  text-align: right;
+  color: #777;
+}
+
+.homepage-footer p, .homepage-footer a {
+  font-size: 12px;
+}
+
+@media (max-width: 640px) {
+  .homepage {
+    padding: 20px;
+  }
+
+  .publication {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+    padding: 22px 0;
+  }
+
+  .publication-image {
+    min-height: 0;
+  }
+
+  .publication-image:empty {
+    display: none;
+  }
+
+  .publication-image img,
+  .publication-image video {
+    max-width: 360px;
+    max-height: 240px;
+    margin: 0 auto;
+  }
+}

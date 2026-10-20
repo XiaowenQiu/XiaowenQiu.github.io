@@ -3,6 +3,29 @@
   "checked_on": "2026-10-12",
   "papers": [
     {
+      "id": "gen2dex",
+      "title": "Gen2Dex: Learning Dexterous Manipulation from Simulation-Initialized Generated Video Demonstrations",
+      "authors": [
+        "Xiaowen Qiu",
+        "Yian Wang",
+        "Haoxiang You",
+        "Chuang Gan"
+      ],
+      "venue": "arXiv, 2026",
+      "year": 2026,
+      "published": "2026-10-17",
+      "paper": "https://arxiv.org/abs/2610.24392",
+      "project": null,
+      "code": null,
+      "image": "images/publications/gen2dex.gif",
+      "image_source": "Author-provided gen2dex_homepage.gif",
+      "summary": "Simulation-initialized generated videos become executable dexterous robot demonstrations through motion reconstruction, retargeting, and residual reinforcement learning.",
+      "sources": [
+        "https://arxiv.org/abs/2610.24392"
+      ],
+      "checked_on": "2026-10-19"
+    },
+    {
       "id": "im-engine",
       "title": "IM-ENGINE: Image Editing for Embodied Data Generation",
       "authors": [
